@@ -2,37 +2,130 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea House</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
 
-    <!-- Font Awesome Cdn -->
-    <script src="https://kit.fontawesome.com/15b406324c.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome Cdn -->
+  <script src="https://kit.fontawesome.com/76c3f9f184.js" crossorigin="anonymous"></script>
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Tailwind Js code customize -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <!-- Tailwind Js code customize -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
           }
         }
-      </script>
+      }
+    }
+  </script>
 
 </head>
+
 <body>
-  <h1>Tea House</h1>
+
+
+  <main class="max-w-screen-xl mx-auto px-16 lg:px-28 ">
+
+    <!-- Header Section -->
+    <header class="lg:flex pt-10 mb-20">
+      <!-- Text Content -->
+      <div class="">
+        <h1 class="text-5xl md:7xl mb-5">It's good <br> tea time at The <br> Tea House</h1>
+        <p class="text-gray-500 w-3/4 mb-5 ">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+          Taste
+          Buds.</p>
+        <button class=" bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg  text-white font-bold ">Explore
+          More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i> </button>
+      </div>
+      <!-- Image Content -->
+      <div class="relative ">
+        <img class="w-full" src="images/banner.png" alt="">
+
+        <!-- Card -->
+        <div
+          class=" absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28 ">
+          <!-- Icon -->
+          <div>
+            <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+          </div>
+          <!-- Text -->
+          <div class="ml-2">
+            <h2 class="lg:text-2xl font-bold">5.00</h2>
+            <p>Trust Pilot Ratings</p>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Featured Product Section -->
+    <section class="py-8 lg:py-24">
+      <!-- Title -->
+      <div class="text-center mb-8">
+        <h1 class="text-3xl md:text-4xl font-bold mb-2">Our Featured Products</h1>
+        <p class="text-gray-500 mx-auto max-w-xl">There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+          even slightly believable. </p>
+      </div>
+      <!-- Product Card -->
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+
+        <div class="rounded-lg shadow-md bg-slate-300 overflow-hidden">
+          <!-- 1st Card -->
+          <img class="mx-auto pt-4" src="images/tea-1.png" alt="">
+          <div class="p-4">
+            <h2 class="font-bold text-xl">Milk Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+
+        <div class="rounded-lg shadow-md bg-slate-300 overflow-hidden">
+          <!-- 2nd Card -->
+          <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+          <div class="p-4">
+            <h2 class="font-bold text-xl">Black Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+
+        <div class="rounded-lg shadow-md bg-slate-300 overflow-hidden">
+          <!-- 3rd Card -->
+          <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+          <div class="p-4">
+            <h2 class="font-bold text-xl">Green Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+
+        <div class="rounded-lg shadow-md bg-slate-300 overflow-hidden">
+          <!-- 4th Card -->
+          <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
+          <div class="p-4">
+            <h2 class="font-bold text-xl">Leamon Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+
+      </div>
+     
+    </section>
+
+  </main>
+  <footer>
+
+  </footer>
 
 </body>
 
